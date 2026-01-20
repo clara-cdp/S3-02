@@ -30,4 +30,8 @@ class Tigger
     {
         return self::$totalRoars;
     }
+
+    private function __clone() {}
+
+    private function __wakeup() {}
 }

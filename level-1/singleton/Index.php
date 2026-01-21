@@ -2,7 +2,7 @@
 
 require('Tigger.php');
 
-$tigger = Tigger::getInstance();
+Tigger::getInstance();
 
 $tigger->roar();
 $tigger->roar();

@@ -29,11 +29,10 @@ echo "The TurkeyAdapter says...\n";
 duck_interaction($turkey_adapter);
 
 
-
-
 /* * * * expected Output * * * * *
  
 The expected output is as follows:
+
 The Turkey says...
 Gobble gobble
 I'm flying a short distance

@@ -7,13 +7,13 @@
 
 - **Dependency Injection**: Making a program that simulates the routine before heading out using the Dependency Injection pattern. In this case, we've equipped the User object with the necessary items (Wallet, Keys, Phone, etc.) to leave home. By injecting these dependency objects through the User's constructor method, the code remains highly decoupled (all the classes are independent); for example, the User can accept any object that implements the Transport interface, such as an oysterCard or a Car, without needing to modify the core User logic.
 
-### LEVEL 2 -
+### LEVEL 2 - _completed_
 
-- **Adapter** :
+- **Adapter**: Refactored the code to allow incompatible classes to work together. I created a DuckInterface which is implemented by a new TurkeyAdapter class. This acts as a "bridge" between the two, translating the Turkey's methods into Duck behaviors so they can be used interchangeably in the program.
 
-- **Facade** :
+- **Facade**: Created a dishwasher program using the Facade pattern. This pattern allows us to provide a simple interface for the user, rather than forcing them to deal with a large, complex class. I grouped the specific steps into three main methods, so the user can control the whole machine with just a few simple commands instead of managing every internal part manually.
 
-### LEVEL 3 -
+### LEVEL 3 - 
 
 - **Strategy** :
 

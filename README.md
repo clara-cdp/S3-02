@@ -15,9 +15,9 @@
 
 ### LEVEL 3 - 
 
-- **Strategy** :
+- **Strategy** : The Strategy Pattern allows a program to select the appropriate algorithm based upon the situation. The CouponGenerator interface is implemented by the BmwCouponGenerator and MercedesCouponGenerator classes. Using the CouponSorter class as a Context, specific discount algorithms are applied based on the car brand. 
 
-- **Observer** :
+- **Observer** : Observer patterns notifies registered users to automatically be notifyed of any state changes in a subject. In this case, when a new task is submitted by a student in the Moodle, the Mentor (Observer) is being notifyed. 
 
 
 ## Technologies
